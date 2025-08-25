@@ -13,7 +13,7 @@ This is a pre-compiled params_resharding module package that supports multiple P
 
 ```bash
 # Clone the repository
-git clone params_resharding_release
+git clone git@github.com:i-Taozi/params_resharding_release.git
 ```
 
 Add the path of `params_resharding_release` to your `PYTHONPATH`
@@ -22,18 +22,6 @@ import params_resharding
 # Now you can use the params_resharding module
 ```
 
-## Directory Structure
-
-```
-params_resharding_release/
-├── params_resharding/          # Python Init file
-├── python_38/                  # Python 3.8 compiled results
-├── python_39/                  # Python 3.9 compiled results
-├── python_310/                 # Python 3.10 compiled results
-├── python_311/                 # Python 3.11 compiled results
-├── install.sh                  # Automatic installation script
-└── README.md                  # This file
-```
 
 ## Notes
 
