@@ -14,11 +14,7 @@ This is a pre-compiled params_resharding module package that supports multiple P
 ```bash
 # Clone the repository
 git clone params_resharding_release
-cd params_resharding_release && bash install.sh
 ```
-
-
-## Usage
 
 Add the path of `params_resharding_release` to your `PYTHONPATH`
 ```python
