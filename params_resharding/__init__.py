@@ -17,7 +17,7 @@ else:
     raise RuntimeError(f"Error: Unsupported Python version 3.{PYTHON_VERSION}")
 
 from .resharding import resharding_init, resharding_actor_to_inference
-from .group_manager import patch_create_group, patch_torch_dist
+from .pg_manager import patch_new_group, patch_torch_dist, nccl_group_recreate
 
+patch_new_group()
 patch_torch_dist()
-patch_create_group()
