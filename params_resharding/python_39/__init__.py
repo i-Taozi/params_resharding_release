@@ -1,6 +1,6 @@
 # Import all compiled modules
 from . import resharding
-from . import gp_manager
+from . import pg_manager
 from . import resharding_dp
 from . import resharding_tp
 from . import resharding_pp
